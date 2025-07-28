@@ -1,7 +1,18 @@
 #include <iostream>
 
-using namespace std;
+// using namespace std;
+using std::cout;
+using std::endl;
+
+// namespace myPc{
+//     void display(){
+//         //comment
+//     }
+// }
 
 int main(){
-    cout << "hello Utkarsh";
+    // myPc::display();
+    cout << "Hello Utkarsh" <<endl;
+    return 0;
 }
+
