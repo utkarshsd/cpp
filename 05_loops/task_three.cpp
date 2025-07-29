@@ -1,18 +1,18 @@
 #include <iostream>
-
+#include <string>
 using namespace std;
 
 int main(){
-    int teaCups;
+    int teaCups = 5;
 
-    cout << "enter the number of teac cups to server: ";
-    cin>> teaCups;
+    for (int i = 1; i <= teaCups ; i++)
+    {
+        cout << "Brewing cup "<< i << "of tea..."<<endl;
+
+    }
     
-   while (teaCups > 0 ){
-       
-    teaCups--;
-    cout << "serving a cup of tea \n" << teaCups << "reamining" <<endl;
-   }
+
+   
   
    
     
