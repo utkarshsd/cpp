@@ -16,7 +16,10 @@ void makeChai(){
     cout<<"boiling water, adding tea leaves, straining...";
 }
 
-void serveChai(){}
+void serveChai(string teaType = "masala tea"){
+    int cups = 4;
+    cout << "serving"<< teaType << endl;
+}
 
 int main(){
     int temp = checkTemperature(50);
